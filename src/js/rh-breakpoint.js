@@ -252,8 +252,9 @@
 
 		// If the list of matched breakpoints has changed.
 		if (!lodash.isEqual(current, arr)) {
-			dispatch('change', arr, current);
+			var old = current;
 			current = arr;
+			dispatch('change', arr, old);
 		}
 	}
 
