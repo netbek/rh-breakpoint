@@ -1,0 +1,29 @@
+{
+	"name": "rh-breakpoint",
+	"version": "0.0.1",
+	"description": "Breakpoint listener for responsive design",
+	"homepage": "https://github.com/netbek/rh-breakpoint",
+	"author": {
+		"name": "Hein Bekker",
+		"email": "hein@netbek.co.za",
+		"url": "http://netbek.co.za"
+	},
+	"license": {
+		"type": "AGPLv3",
+		"url": "http://www.gnu.org/licenses/agpl-3.0.txt"
+	},
+	"ignore": [
+		"bower_components",
+		"node_modules",
+		"test",
+		"tests",
+		"vendor",
+		"src"
+	],
+	"dependencies": {
+		"rhea": "https://github.com/netbek/rhea.git#master"
+	},
+	"devDependencies": {
+		"requirejs": "~2.1.16"
+	}
+}
